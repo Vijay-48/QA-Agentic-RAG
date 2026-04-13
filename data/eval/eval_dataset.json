@@ -1,0 +1,32 @@
+[
+    {
+        "question": "What is Retrieval-Augmented Generation (RAG)?",
+        "expected_answer": "RAG is a technique that combines retrieval of relevant documents with language model generation to produce grounded answers.",
+        "expected_keywords": ["retrieval", "generation", "augmented", "documents"],
+        "expected_sources": ["Rag Docs.pdf"]
+    },
+    {
+        "question": "What are the different chunking strategies?",
+        "expected_answer": "Common chunking strategies include fixed-size chunking, semantic chunking, and sliding window chunking.",
+        "expected_keywords": ["fixed", "semantic", "sliding", "window", "chunk"],
+        "expected_sources": ["Rag Docs.pdf"]
+    },
+    {
+        "question": "What is the purpose of embeddings in RAG?",
+        "expected_answer": "Embeddings convert text into numerical vectors that capture semantic meaning, enabling similarity search.",
+        "expected_keywords": ["embedding", "vector", "semantic", "similarity"],
+        "expected_sources": ["Rag Docs.pdf"]
+    },
+    {
+        "question": "How does vector similarity search work?",
+        "expected_answer": "Vector similarity search finds documents by computing cosine similarity or dot product between query and document embeddings.",
+        "expected_keywords": ["cosine", "similarity", "vector", "search"],
+        "expected_sources": ["Rag Docs.pdf"]
+    },
+    {
+        "question": "What is the difference between dense and sparse retrieval?",
+        "expected_answer": "Dense retrieval uses neural embeddings for semantic matching, while sparse retrieval uses keyword-based methods like BM25.",
+        "expected_keywords": ["dense", "sparse", "embedding", "keyword", "BM25"],
+        "expected_sources": ["Rag Docs.pdf"]
+    }
+]

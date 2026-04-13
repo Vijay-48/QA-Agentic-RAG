@@ -1,0 +1,28 @@
+# Environment & secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vector store local data
+artifacts/
+
+# Large data files
+data/raw/*.pdf
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,11 @@
+requests
+numpy
+pypdf
+python-dotenv
+chromadb
+rank-bm25
+scikit-learn
+tqdm
+pytest
+faiss-cpu
+qdrant-client
